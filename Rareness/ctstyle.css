@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap');
+header
+ {
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+    padding: 0px 20px;
+    border-bottom: double 2px rgb(255, 215, 0);
+    margin-bottom: 15px;
+ }
+ .cat
+ {
+    display: flex;
+    margin-right: 1000px;
+    margin-left: 210px;
+ }
+ .cat1
+ {
+    height: 300px;
+    width: auto;
+    border-radius:  15px;
+    margin-left: 10%;
+    margin-top:60px;
+ }
+ .cat2
+ {
+    height: 300px;
+    width: auto;
+    border-radius:  15px;
+    margin-left: 10%;
+    margin-top:60px;
+ }
+ .cat3
+ {
+    height: 300px;
+    width: auto;
+    border-radius:  15px;
+    margin-left: 10%;
+    margin-top:60px;
+ }
+ .cat4
+ {
+    height: 300px;
+    width: auto;
+    border-radius:  15px;
+    margin-left: 10%;
+    margin-top:60px;
+ }
+ h2
+ {
+    text-align: center;
+ }
+ .cat1 :hover
+ {
+background-color: rgb(243,243,243);
+ }
+ .cat2 :hover
+ {
+background-color: rgb(243,243,243);
+ }
+ .cat3 :hover
+ {
+background-color: rgb(243,243,243);
+ }
+ .cat4 :hover
+ {
+background-color: rgb(243,243,243);
+ }
+ .img1
+ {
+    height: 400px;
+    width: 200px;
+    border-radius: 20px;
+    border: solid 2px rgb(255, 215, 0);
+ }
+ .img2
+ {
+    height: 400px;
+    width: 200px;
+    border-radius: 20px;
+    border: solid 2px rgb(255, 215, 0);
+ }
+ .img3
+ {
+    height: 400px;
+    width: 200px;
+    border-radius: 20px;
+    border: solid 2px rgb(255, 215, 0);
+ }
+ .img4
+ {
+    height: 400px;
+    width: 200px;
+    border-radius: 20px;
+    border: solid 2px rgb(255, 215, 0); 
+ }
+ 
+
+ 

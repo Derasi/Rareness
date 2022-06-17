@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@400;700&display=swap');
+header
+ {
+    width: 100%;
+    height: 50px;
+    background-color: #fff;
+    padding: 0px 20px;
+    border-bottom: double 2px rgb(255, 215, 0);
+    margin-bottom: 15px;
+ }
+ .h123
+ {
+    position:  relative;
+    top:375px;
+    color:black;
+    left: 20px;
+    text-decoration: none;
+ }
+ .h124
+ {
+    position:  relative;
+    top:380px;
+    color:black;
+    left: 20px;
+    text-decoration: none;
+ }
+ .h123 :hover{
+    background-color: rgb(243,243,243);
+    width: 300px;
+ }
+ .h124 :hover{
+    background-color: rgb(243,243,243);
+    width: 400px;
+ }

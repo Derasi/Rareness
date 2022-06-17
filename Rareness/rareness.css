@@ -1,0 +1,81 @@
+header{
+    width: 100%;
+    height: 60px;
+    background-color: #fff;
+    border-bottom: solid 2px rgb(255, 215, 0);
+    display: flex;
+    align-items: center;
+    position: fixed;
+    top:0;
+    z-index: 1;
+}
+.elements{
+    width: 100%;
+    height: 100%; 
+}
+.elements-text{
+    color:black;
+    font-weight: 600;
+    text-align: center;
+    font-size: larger;
+    line-height: 60px;
+    margin: 0;
+}
+a {
+    width: 100%;
+    text-decoration: none;
+}
+a:hover .elements {
+    background-color: rgb(243, 243, 243);
+    border-right: solid 1px rgb(255, 215, 0);
+    border-left: solid 1px rgb(255, 215, 0);
+}
+/*slider*/
+.container{
+    width: 100%;
+    display: flex;
+}
+.slider{
+    width: 700px;
+    height: 400px;
+    border: solid 2px rgb(255, 215, 0);
+    border-radius: 5px;
+    margin: 100px auto;
+    overflow: hidden;
+}
+.slider-line{
+    width: 2800px;
+    height: 400px;
+    display: flex;
+    position: relative;
+    left:0;
+    transition: all ease 1s;
+}
+.slider-img{
+    width: 700px;
+    height: 400px;
+    display: inline-block;
+
+}
+button{
+    background: none;
+    border: sloid 1px black;
+    border-radius: 15px;
+    width: 50px;
+    height: 50px;
+    font-size: x-large;
+    font-weight: 700;
+    display: inline-block; 
+}
+.slider-next{
+    margin: 250px 20px 0px 200px;
+}
+.slider-prev{
+    margin: 250px 200px 0px 20px;
+}
+button:hover{
+    background-color: rgb(255, 215, 0);
+}
+button:active{
+    background-color: rgb(243, 243, 243);
+}
